@@ -34,7 +34,7 @@ const BottomTabs = () => {
         name="Hot"
         component={Hot}
         options={{
-          tabBarLabel: "练习",
+          tabBarLabel: "最热",
           tabBarIcon: ({ color, size }) => (
             <IconFont name="icon-hot" color={color} size={size} />
           ),
@@ -45,7 +45,7 @@ const BottomTabs = () => {
         name="Trend"
         component={Trend}
         options={{
-          tabBarLabel: "实践",
+          tabBarLabel: "趋势",
           tabBarIcon: ({ color, size }) => (
             <IconFont name="icon-tendency" color={color} size={size} />
           ),
@@ -56,7 +56,7 @@ const BottomTabs = () => {
         name="Collection"
         component={Collection}
         options={{
-          tabBarLabel: "实践",
+          tabBarLabel: "收藏",
           tabBarIcon: ({ color, size }) => (
             <IconFont name="icon-collectionActive" color={color} size={size} />
           ),
@@ -67,7 +67,7 @@ const BottomTabs = () => {
         name="Mine"
         component={Mine}
         options={{
-          tabBarLabel: "实践",
+          tabBarLabel: "我的",
           tabBarIcon: ({ color, size }) => (
             <IconFont name="icon-mine" color={color} size={size} />
           ),
