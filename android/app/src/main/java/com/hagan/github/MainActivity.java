@@ -1,4 +1,4 @@
-package com.github_ts;
+package com.hagan.github;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "GitHub_TS";
+    return "GitHub";
   }
 }
